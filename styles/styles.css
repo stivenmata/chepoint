@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.layout {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+header {
+    min-height: 40vh;
+}
+.div-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.fondo-banner > img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 0% 15%;
+    
+}
+.navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+}
+.logo_nav{
+display: flex;
+}
+nav{
+display: flex;
+}
+
+.menu {
+    gap: 140vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    align-items: baseline
+}
+.menu > nav > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 5px;
+}
+.menu > nav > a:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.active-a {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.titulo {
+    color: white;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+.red{
+    color: red;
+}
+main {
+    flex-grow: 1;
+}
+.div-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.h2{
+color: black;
+}
+.titulo-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.titulo-main > div > h2 {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+.titulo-main > .menu-main > nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+.titulo-main > .menu-main > nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    margin: 5px;
+}
+.titulo-main > .menu-main > nav > a:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.cuerpo-main {
+    display: flex;
+    flex-direction: row;
+}
+.cuerpo-main > section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+}
+.img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-div > img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.section-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+
+
+
+
+.adicional-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 5px;
+}
+ul{
+    
+gap: 15px;
+display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.lista{
+    padding: 50px;
+    background-color: rgba(28, 31, 29, 0.322);
+    border: solid 2px black;
+    border-radius: 20px ;
+}
+.lista-tabla-adicional-main {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 30vh;
+}
+.lista-tabla-adicional-main > div {
+    padding: 40px;
+}
+ul,
+li {
+    color: white;
+}
+caption{
+    background-color: black;
+    color: white;
+}
+.tabla > table {
+background-color: rgba(28, 31, 29, 0.322);
+    border-collapse: collapse;
+    font-size: 16px;
+    padding: 5px;
+}
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+}
+/*--------------------------------------- Footer Styles ---------------------------------------*/
+footer {
+    background-color: black;
+    min-height: 10vh;
+    border-top: 1px solid white;
+}
+.traveled{
+margin-right: 20px;
+
+}
+label{
+color: white;
+}
+legend{
+   color: white;
+}
+.label-1-2{
+display: flex;
+flex-direction: row;
+gap: 20px;
+
+}
+.label_input{
+    margin-top: 10px;
+color: white;
+display: flex;
+flex-direction: column;
+
+}
+fieldset{
+    padding: 10px;
+}
+
+.div-footer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.titulo-footer {
+    padding: 10px;
+}
+.titulo-footer{
+    color: white;
+}
+.email-footer {
+    padding: 10px;
+}
+.email-footer > h3 > a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
